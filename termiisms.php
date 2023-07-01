@@ -1,3 +1,4 @@
+<?php  
 $curl = curl_init();
 $data = array( "api_key" => "Your API key",
              "message_type" => "NUMERIC",
@@ -32,3 +33,4 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
+?>
